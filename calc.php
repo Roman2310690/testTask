@@ -35,8 +35,8 @@ function splitOnce($reds, $greens, $ticks) {
     ];
 
     $splitted = [
-        'reds' => $splittedReds['reds'] + $splittedGreens['reds'],
-        'greens' => $splittedReds['greens'] + $splittedGreens['greens']
+        'reds' => $splittedReds['reds'] + $splittedGreens['greens'],
+        'greens' => $splittedReds['greens'] + $splittedGreens['reds']
     ];
 
     $remainingTicks = $ticks - 1;
